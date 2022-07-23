@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRMSProject.Models\HRMSProject.Models.csproj" />
+    <ProjectReference Include="..\HRMSProject.Repository\HRMSProject.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
